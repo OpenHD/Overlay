@@ -54,6 +54,8 @@ dtparam=audio=on
 
 # Automatically load overlays for detected cameras
 #camera_auto_detect=1
+start_x=1
+gpu_mem=128
 
 # Automatically load overlays for detected DSI displays
 display_auto_detect=1
@@ -72,8 +74,7 @@ disable_overscan=1
 otg_mode=1
 
 [all]
-start_x=1
-gpu_mem=128
+
 
 [pi4]
 # Run as fast as firmware / board allows
