@@ -23,7 +23,7 @@ else
       fi
    fi
 fi
-sudo raspi-config nonint do_camera 0
 rm -f /boot/firstrun.sh
+sudo raspi-config nonint do_legacy 0
 sed -i 's| systemd.run.*||g' /boot/cmdline.txt
 exit 0
