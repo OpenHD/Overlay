@@ -58,19 +58,22 @@ gpu_mem=128
 display_auto_detect=1
 
 [pi3]
-arm_freq=900
-gpu_freq=333
+arm_freq_min=900
+h264_freq_min=333
+isp_freq_min=333
 dtoverlay=vc4-fkms-v3d
 
 [cm4]
 otg_mode=1
-arm_freq=900
-gpu_freq=500
+arm_freq_min=900
+h264_freq_min=500
+isp_freq_min=500
 dtoverlay=vc4-kms-v3d
 
 [pi4]
-arm_freq=900
-gpu_freq=500
+arm_freq_min=900
+h264_freq_min=500
+isp_freq_min=500
 dtoverlay=vc4-kms-v3d
 
 [all]
