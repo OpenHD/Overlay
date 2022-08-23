@@ -24,8 +24,8 @@ else
    fi
 fi
 rm -f /boot/firstrun.sh
-sudo raspi-config nonint do_legacy 0
-sudo mv /boot/config.new /boot/config.txt
+#sudo raspi-config nonint do_legacy 0
+#sudo mv /boot/config.new /boot/config.txt
 sudo chown openhd:openhd /home/openhd
 sed -i 's| systemd.run.*||g' /boot/cmdline.txt
 exit 0
