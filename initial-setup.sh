@@ -17,7 +17,7 @@ echo ""
 
 echo "we're now installing the rtl8812au driver"
 
-cd /opt/X86/rtl8812au
+cd /opt/X86/rtl8812au-5.2.20
 ./dkms-install.sh
 
 echo "After a reboot OpenHD should be usable now"
