@@ -23,5 +23,7 @@ cd /opt/X86/rtl8812au-5.2.20
 echo "After a reboot OpenHD should be usable now"
 rm -rf /opt/X86/initial-setup.sh
 
+reboot 
+
 
 
