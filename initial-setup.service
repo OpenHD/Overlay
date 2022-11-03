@@ -1,0 +1,8 @@
+[Unit]
+After=network.target
+
+[Service]
+ExecStart=/opt/X86/initial-setup.sh
+
+[Install]
+WantedBy=default.target
