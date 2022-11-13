@@ -72,6 +72,9 @@ otg_mode=1
 [all]
 enable_uart=1
 start_x=1
+dtparam=i2c_arm=on
+dtparam=i2c_vc=on
+dtparam=i2c1=on
 
 [pi4]
 
@@ -80,10 +83,6 @@ isp_freq_min=400
 v3d_freq_min=400
 
 gpu_mem=128
-dtparam=i2c_arm=on
-dtparam=i2c_vc=on
-dtparam=i2c1=on
-
 [all]
 #after this line settings are dynamically written
 
