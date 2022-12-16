@@ -1,9 +1,0 @@
-[Unit]
-After=multi-user.target
-
-[Service]
-User=root
-ExecStart=/opt/X86/initial-setup.sh
-
-[Install]
-WantedBy=default.target
