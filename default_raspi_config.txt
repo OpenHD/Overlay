@@ -76,6 +76,8 @@ dtparam=i2c_arm=on
 dtparam=i2c_vc=on
 dtparam=i2c1=on
 
+#needed to fix frequencies because of a bug in MMAL-DECODER/ENCODER
+
 [pi4]
 
 h264_freq_min=400
@@ -83,6 +85,21 @@ isp_freq_min=400
 v3d_freq_min=400
 
 gpu_mem=128
+
+[pi3]
+h264_freq_min=400
+isp_freq_min=400
+v3d_freq_min=400
+
+gpu_mem=128
+
+[pi2]
+h264_freq_min=250
+isp_freq_min=250
+v3d_freq_min=250
+
+gpu_mem=128
+
 
 [all]
 #WARNING ! OpenHD will modify the following lines if you select a different Cam config in QOpenHD
