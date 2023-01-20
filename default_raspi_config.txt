@@ -86,6 +86,7 @@ v3d_freq_min=400
 gpu_mem=128
 
 [pi3]
+arm_freq=1200
 h264_freq_min=400
 isp_freq_min=400
 v3d_freq_min=400
